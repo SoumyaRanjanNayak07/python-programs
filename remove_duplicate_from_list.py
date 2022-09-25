@@ -1,0 +1,8 @@
+a=[12,24,35,24,88,120,155,88,120,155]
+
+unique=[]
+for i in a:
+    if i not in unique:
+        unique.append(i)
+
+print(unique)
