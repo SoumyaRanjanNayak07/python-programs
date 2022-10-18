@@ -26,9 +26,9 @@ if temp>0:
         # print(num)
 
     # print(sum)
-if num==0 or num==1:
-    print("It is Amstrong Number. ",num)
-elif sum==num:
-    print("It is Amstrong Number. ",sum)   
-else:
-    print("It is not a amstrong number.",num)   
+    if num==0 or num==1:
+        print("It is Amstrong Number. ",num)
+    elif sum==num:
+        print("It is Amstrong Number. ",sum)   
+    else:
+        print("It is not a amstrong number.",num)   
