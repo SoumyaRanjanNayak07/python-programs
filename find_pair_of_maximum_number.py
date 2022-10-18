@@ -6,7 +6,7 @@ def max_Product(arr):
     # Initialize max product pair 
     x = arr[0]; y = arr[1] 
 
-    # Traverse through every possible pair     
+    # iterate from 0 to array length    
     for i in range(0, arr_len): 
 
         for j in range(i + 1, arr_len): 
