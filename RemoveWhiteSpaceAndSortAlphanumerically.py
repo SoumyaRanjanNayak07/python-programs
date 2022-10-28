@@ -1,3 +1,6 @@
+words=input("Enter your words or sentence with white spaces and duplicate words:")
+words=words.lower()
+
 lst=words.split(" ")
 lst.sort()
 
