@@ -1,4 +1,4 @@
-# example_02.py
+# Extract Resume Text (Only if resume in  docx format)
  
 import docx2txt
  
@@ -11,4 +11,4 @@ def extract_text_from_docx(docx_path):
  
  
 if __name__ == '__main__':
-    print(extract_text_from_docx('./SOUMYA 126 RESUME.docx'))  # noqa: T001
+    print(extract_text_from_docx('./resume.docx'))  # noqa: T001
